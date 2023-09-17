@@ -62,3 +62,18 @@ p {
 .btn-branding:hover {
   color: rgb(0, 0, 0) !important;
 }
+/* ============ product ================== */
+.text-align {
+  padding: 120px 60px !important;
+}
+#product h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85.31px;
+}
+#product p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 70%;
+}
