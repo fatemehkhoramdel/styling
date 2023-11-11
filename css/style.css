@@ -83,6 +83,34 @@ p {
   border-radius: 4px !important;
   color: var(--branding-color) !important;
 }
+
+/* ========== about section ========*/
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: 0em;
+}
+.about-section h2 {
+  font-family: var(--main-font-family);
+  color: var(--second-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.about-section p {
+  font-size: 16px;
+  opacity: 70%;
+}
+.context {
+  margin: 30px;
+}
+/* =========== End about =======*/
+
 @media (max-width: 720px) {
   .hero {
     padding: 60px 20px;
@@ -100,5 +128,8 @@ p {
   .textalign {
     text-align: center;
     padding: 0px;
+  }
+  .about-section {
+    text-align: center;
   }
 }
