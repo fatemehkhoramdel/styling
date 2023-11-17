@@ -110,6 +110,26 @@ p {
   margin: 30px;
 }
 /* =========== End about =======*/
+/* =========== Start work page =======*/
+.work {
+  padding: 160px;
+}
+.work h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+}
+.work h2 {
+  font-family: var(--main-font-family);
+  font-size: 24px;
+  font-weight: 700;
+}
+.work p {
+  color: var(--second-text-color);
+  opacity: 70%;
+  font-size: 14px;
+}
+/* =========== End work page =======*/
 
 @media (max-width: 720px) {
   .hero {
@@ -131,5 +151,9 @@ p {
   }
   .about-section {
     text-align: center;
+  }
+  /* work */
+  .work h1 {
+    font-size: 44px;
   }
 }
