@@ -85,16 +85,16 @@ p {
 }
 
 /* ========== about section ========*/
-.about-section {
+.content {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   font-weight: 700;
   line-height: 85px;
   letter-spacing: 0em;
 }
-.about-section h2 {
+.content h2 {
   font-family: var(--main-font-family);
   color: var(--second-text-color);
   font-size: 18px;
@@ -102,7 +102,7 @@ p {
   line-height: 27px;
   letter-spacing: 0em;
 }
-.about-section p {
+.content p {
   font-size: 16px;
   opacity: 70%;
 }
@@ -111,24 +111,7 @@ p {
 }
 /* =========== End about =======*/
 /* =========== Start work page =======*/
-.work {
-  padding: 160px;
-}
-.work h1 {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 85px;
-}
-.work h2 {
-  font-family: var(--main-font-family);
-  font-size: 24px;
-  font-weight: 700;
-}
-.work p {
-  color: var(--second-text-color);
-  opacity: 70%;
-  font-size: 14px;
-}
+
 /* =========== End work page =======*/
 
 @media (max-width: 720px) {
@@ -149,11 +132,11 @@ p {
     text-align: center;
     padding: 0px;
   }
-  .about-section {
+  .content {
     text-align: center;
   }
   /* work */
-  .work h1 {
+  .content h1 {
     font-size: 44px;
   }
 }
