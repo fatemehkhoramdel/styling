@@ -139,4 +139,32 @@ p {
   .content h1 {
     font-size: 44px;
   }
+  #menu a {
+    font-size: 14px;
+  }
+  #menu li {
+    padding: 2px;
+  }
+}
+/* ====== Menu style ======*/
+nav {
+  margin: 20px;
+}
+nav li {
+  display: inline;
+  padding: 15px;
+}
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  color: var(--second-text-color);
+  font-family: var(--main-font-family);
+  font-size: 16px;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+nav img {
+  max-height: 40px;
 }
