@@ -168,3 +168,15 @@ nav li.active a {
 nav img {
   max-height: 40px;
 }
+/* ====== footer ======*/
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .socialmedia-link{
+  
+}
