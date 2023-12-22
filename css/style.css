@@ -145,6 +145,13 @@ p {
   #menu li {
     padding: 2px;
   }
+  footer .contact-box h4 {
+    font-size: 32px;
+    text-align: center;
+  }
+  footer p {
+    text-align: center;
+  }
 }
 /* ====== Menu style ======*/
 nav {
